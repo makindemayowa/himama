@@ -45,6 +45,7 @@ If I were given a day, I would work on cleaning up the app as is to work seamles
 Also, I would add more tests before the codebase gets bigger to improve the code quality and encourage contributions from other developers.
 
 #### What if you were given a month?
+Setup CI flow for testing and ios + android builds.
 Add more features to the app such as 
 - user authentication
 - admin dashboard to set teachers access to classes
