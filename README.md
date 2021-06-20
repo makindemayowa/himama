@@ -26,3 +26,28 @@ Components are tested with Jest and react-native-testing-library. To run the tes
 
 ### Authentication
 Authentication is not yet set up in the app and any random string in the username and password fields allow you in to the app.
+
+
+### Please describe your process for approaching the code challenge.
+The first thing I did was understand the problem statement fully, which daily rostering of kids in each classroom.
+I proceeded to look through the sample input to be sure what the data form was and this informed the flow of the app.
+
+### What kind of planning did you do? Did your plans change as you began coding?
+I started by choosing if I would be using a front-end framework(react) or native mobile development technology(react native), after this, I planned the test frameworks to use. Then I proceeded to data storage and user authentication.
+Some plans changed, an example was that I started out using react-native-async-storage because of time constraint and eventually migrated the work done to firebase real-time storage when time.
+
+### Is there anything you’d like to add or mention in regards to the app design and navigation you chose?
+For navigation, I chose React Navigation since it provides a straightforward navigation solution, with common stack navigation patterns on both Android and iOS.
+For now, the allClassroomsAccessible key is toggled manually in the database, and the state of the key affects what teachers can do on the app
+
+### If you were given another day to work on this, how would you spend it? What if you were given a month?
+If I were given a day, I would work on cleaning up the app as is to work seamlessly on both android and iOS. It currently works on both platforms, but the header and the cards look janky at the moment.
+Also, I would add more tests before the codebase gets bigger to improve the code quality and encourage contributions from other developers.
+
+#### What if you were given a month?
+Add more features to the app such as 
+- user authentication
+- admin dashboard to set teachers access to classes
+- adding timestamp to check-in/out time 
+- student journey(log of classes a child has attended as they move between classes)
+- child dashboard which is visible to both parent and teacher to showcase child's activities and teacher's observation. 
