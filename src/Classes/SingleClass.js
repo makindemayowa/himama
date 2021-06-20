@@ -18,7 +18,7 @@ import ThreeDots from '../images/threedots.svg';
 import { useAppState } from '../context/app.context';
 
 const createAlert = alertText =>
-  Alert.alert(alertText, [{ text: 'OK', onPress: () => null }]);
+  Alert.alert(alertText, '', [{ text: 'OK', onPress: () => null }]);
 
 export default function ClassScreen({ route, navigation }) {
   const { centerData } = useAppState();

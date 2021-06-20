@@ -1,0 +1,48 @@
+{
+    "project_info": {
+      "project_number": "557532901726",
+      "firebase_url": "https://himama-8d704-default-rtdb.firebaseio.com",
+      "project_id": "himama-8d704",
+      "storage_bucket": "himama-8d704.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:557532901726:android:275d0b736d1258bf3d1fcf",
+          "android_client_info": {
+            "package_name": "com.himama"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "557532901726-us060krbrcrumn6ctfijn52k8plka2eq.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCNMomA7X5qzIsnJH-e3qSaAYbDpEaMNHE"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "557532901726-us060krbrcrumn6ctfijn52k8plka2eq.apps.googleusercontent.com",
+                "client_type": 3
+              },
+              {
+                "client_id": "557532901726-6l5lm5d46rcmv7ke1k5f2e55gedj7sul.apps.googleusercontent.com",
+                "client_type": 2,
+                "ios_info": {
+                  "bundle_id": "org.reactjs.native.example.himama"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
+  

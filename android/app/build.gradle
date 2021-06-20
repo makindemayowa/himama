@@ -1,5 +1,5 @@
 apply plugin: "com.android.application"
-
+apply plugin: 'com.google.gms.google-services' // <- Add this line
 import com.android.build.OutputFile
 
 /**
@@ -149,6 +149,12 @@ android {
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+        release {
+            storeFile file('himama.keystore')
+            storePassword 'oreoluwa53'
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
